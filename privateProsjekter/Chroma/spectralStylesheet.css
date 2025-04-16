@@ -1,0 +1,23 @@
+.spectrum-container {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.wavelength {
+    width: calc(100vw / (830 - 390));
+    height: 100%;
+}
+
+.clicked {
+    border: 5px solid white;
+}
+
+.color-display {
+    width: 100vw;
+    height: 20vh;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4rem;
+}

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-container {
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.color-picker-container {
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  margin-top: 1rem;
+  display: flex;
+}
+
+#mixBtn {
+  padding: .5rem;
+}
+
+.color-picker {
+  height: 2rem;
+  padding: .25rem;
+}
+
+.resulting-color {
+  width: 30vw;
+  height: 20vh;
+}
+
+.scalebox-container {
+  justify-content: space-between;
+  width: 100vw;
+  margin-top: 10vh;
+  display: flex;
+}
+
+.pixel {
+  background-color: #646464;
+  width: .15rem;
+  height: .15rem;
+}
+
+.pixel-container {
+  justify-content: center;
+  width: 100vw;
+  margin-top: 2rem;
+  display: flex;
+}
+/*# sourceMappingURL=Farger-react.60928911.css.map */

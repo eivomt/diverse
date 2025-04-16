@@ -1,0 +1,24 @@
+.spectrum-container {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+}
+
+.wavelength {
+  width: .227273vw;
+  height: 100%;
+}
+
+.clicked {
+  border: 5px solid #fff;
+}
+
+.color-display {
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
+  height: 20vh;
+  padding-top: 4rem;
+}
+/*# sourceMappingURL=spectral.7089ac27.css.map */

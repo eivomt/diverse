@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chroma Color Mixer</title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+
+</head>
+<body>
+    <div class="text-container">
+        <a href="spectral.html">Spectral</a>
+        <h1>Mix Two Colors</h1>
+        <div class="color-picker-container">
+            <label>
+              Color 1:
+              <input class="color-picker" type="color" id="color1" value="#ff0000">
+            </label>
+            <label>
+              Color 2:
+              <input class="color-picker" type="color" id="color2" value="#00ff00">
+            </label>
+            <label>
+              Color 3:
+              <input class="color-picker" type="color" id="color3" value="#ff0000">
+            </label>
+            <label>
+              Color 4:
+              <input class="color-picker" type="color" id="color4" value="#00ff00">
+            </label>
+            <button id="mixBtn">Mix Colors</button>
+        </div> 
+    </div>
+
+  <!-- <div id="result" style="margin-top: 20px; font-weight: bold;">Result: —</div> -->
+
+  <!-- <div class="resulting-color"></div> -->
+
+  <div class="pixel-container">
+
+  </div>
+
+  <script type="module" src="./script3.js"></script>
+</body>
+</html>
